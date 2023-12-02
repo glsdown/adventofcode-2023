@@ -17,7 +17,7 @@ def get_values(line):
     # Parse the results
     results = [dict([i[::-1] for i in w]) for w in [[w.split() for w in r.split(",")] for r in results.split(";")]]
 
-    # Get the maximum counts reuired
+    # Get the maximum counts required
     colour_dict = defaultdict(int)
     for result in results:
         for colour, count in result.items():

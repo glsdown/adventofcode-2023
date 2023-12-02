@@ -70,6 +70,7 @@ if __name__ == "__main__":
     Run using e.g.
         `python day-{DAY}.py -test`
         `python day-{DAY}.py`
+        `python day-{DAY}.py -submit`
         `python day-{DAY}.py -test -2`
         `python day-{DAY}.py -2`
         `python day-{DAY}.py -test -both`
